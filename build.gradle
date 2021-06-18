@@ -2,8 +2,9 @@ buildscript {
     ext {
         logbackVersion = '1.2.3'
         jupiterVersion = '5.6.2'
+        junitEngineVersion = '1.6.2'
         minIOVersion = '8.2.2'
-        springBootStartVersion = '2.4.3'
+        springBootStartVersion = '2.1.6.RELEASE'
     }
 }
 
@@ -30,7 +31,7 @@ dependencies {
 
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:${springBootStartVersion}"
     // test
-    testImplementation "org.junit.jupiter:junit-jupiter:${jupiterVersion}"
+    testCompileOnly "org.junit.jupiter:junit-jupiter:${jupiterVersion}"
 }
 
 task sourcesJar(type: Jar) {
