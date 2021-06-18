@@ -1,0 +1,37 @@
+{
+   "groups": [
+      {
+         "name": "jf.oss.minio",
+         "type": "club.javafamily.oss.properties.OssMinIOProperties",
+         "sourceType": "club.javafamily.oss.properties.OssMinIOProperties"
+      }
+   ],
+   "properties": [
+      {
+         "name": "jf.oss.minio.endPoint",
+         "type": "java.lang.String",
+         "description": "endPoint for minio",
+         "sourceType": "club.javafamily.oss.properties.OssMinIOProperties"
+      },
+      {
+         "name": "jf.oss.minio.user",
+         "type": "java.lang.String",
+         "description": "user for minio",
+         "sourceType": "club.javafamily.oss.properties.OssMinIOProperties"
+      },
+      {
+         "name": "jf.oss.minio.password",
+         "type": "java.lang.String",
+         "description": "password for minio",
+         "sourceType": "club.javafamily.oss.properties.OssMinIOProperties"
+      },
+      {
+         "name": "jf.oss.minio.defaultBucket",
+         "type": "java.lang.String",
+         "description": "defaultBucket for minio",
+         "sourceType": "club.javafamily.oss.properties.OssMinIOProperties"
+      }
+   ],
+   "hints": [
+   ]
+}
